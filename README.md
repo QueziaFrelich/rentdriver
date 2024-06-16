@@ -1,16 +1,19 @@
-# rentdriver
+# RentDriver App
 
-A new Flutter project.
+RentDriver é um aplicativo Flutter para aluguel de carros. Usuários podem registrar seus carros, visualizar carros disponíveis para aluguel e fazer reservas.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Cadastro de Usuário**: Usuários podem criar uma conta fornecendo nome, email, senha e NIF.
+- **Login de Usuário**: Usuários podem fazer login com email e senha.
+- **Cadastro de Carros**: Usuários podem adicionar carros para aluguel, fornecendo detalhes como modelo, ano, cidade e valor de aluguel.
+- **Listagem de Carros**: Todos os carros registrados são listados na página inicial.
+- **Reserva de Carros**: Usuários podem reservar carros para uma data específica. O proprietário do carro pode aceitar ou recusar a reserva.
+- **Perfil do Usuário**: Usuários podem visualizar seu perfil e sair da conta com uma confirmação.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**: Framework para desenvolvimento do aplicativo.
+- **Firebase Authentication**: Autenticação de usuários.
+- **Cloud Firestore**: Banco de dados NoSQL para armazenar informações de usuários e carros.
+- **Firebase Storage**: Armazenamento de imagens dos carros (planejado para implementação futura).
