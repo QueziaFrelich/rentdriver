@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "390558124989",
+    "project_id": "rentdrive",
+    "storage_bucket": "rentdrive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390558124989:android:3e84694ee6a6aa7054e0d4",
+        "android_client_info": {
+          "package_name": "com.exemple.rentdriver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGnyV7KuI8eKQelWwXM5drUNeJ7iWb07k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
